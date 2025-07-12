@@ -1,0 +1,102 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.App {
+  padding-bottom: 60px;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Question Cards */
+.card {
+  margin-bottom: 1rem;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.vote-section {
+  min-width: 40px;
+}
+
+/* Rich Text Editor */
+.rich-text-editor {
+  margin-bottom: 1rem;
+}
+
+.ql-editor {
+  min-height: 200px;
+}
+
+/* Tags */
+.badge-pill {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Notifications */
+.notification-item {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.notification-item:hover {
+  background-color: #f8f9fa;
+}
+
+.notification-item.unread {
+  background-color: #f0f7ff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .question-page {
+    padding: 0 10px;
+  }
+  
+  .vote-section {
+    min-width: 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+  
+  .rich-text-editor .ql-toolbar {
+    flex-wrap: wrap;
+  }
+  
+  .rich-text-editor .ql-formats {
+    margin-bottom: 5px;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+  
+  .list-group-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #333;
+  }
+  
+  .notification-item.unread {
+    background-color: #2a2a2a;
+  }
+}
