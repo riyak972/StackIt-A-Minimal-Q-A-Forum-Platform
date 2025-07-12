@@ -9,4 +9,4 @@ StackIt is a minimal question- and- answer platform that supports collaborative 
 2. Dhriti Jaswal (dhritijaswal777@gmail.com)
 3. Manit Saxena (ManitHuMain@gmail.com)
 
-Video Link: 
+Video Link: https://drive.google.com/file/d/10jcLDw7zm2ryMWPuXaGzOXq4Qd9wFJUM/view?usp=sharing
